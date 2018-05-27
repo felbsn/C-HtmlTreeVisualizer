@@ -13,5 +13,68 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="HtmlPart">
+      <UniqueIdentifier>{6ca2c8c7-fc03-47db-986c-b7065e77ae34}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="NodeAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShellHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeVisualizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UserData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CVector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CVectorImp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ShellHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TreeVisualizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UserData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeAlgorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="HTML\dataFunction.js">
+      <Filter>HtmlPart</Filter>
+    </None>
+    <None Include="HTML\data.js">
+      <Filter>HtmlPart</Filter>
+    </None>
+    <None Include="HTML\dataHandler.js">
+      <Filter>HtmlPart</Filter>
+    </None>
+    <None Include="HTML\demo.html">
+      <Filter>HtmlPart</Filter>
+    </None>
+    <None Include="HTML\Main.js">
+      <Filter>HtmlPart</Filter>
+    </None>
+    <None Include="HTML\style.css">
+      <Filter>HtmlPart</Filter>
+    </None>
+    <None Include="HTML\variables.js">
+      <Filter>HtmlPart</Filter>
+    </None>
   </ItemGroup>
 </Project>

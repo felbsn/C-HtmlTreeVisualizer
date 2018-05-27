@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>html demo</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id = "header" width=600 align="center">
+        <h3 width=600 align="center"> Html Tree Visualizer</h3>
+    </div>
+
+
+<canvas id="canvas" width=600 height = 400 align="center">
+
+
+</canvas>
+    <p id = "infoBox">
+    </p>
+
+
+
+<div align="center"  width=600 height = 400>
+     <button id="btn_reflesh" type="button"  class="selButton" style="background: lightblue" onclick="refleshData();">
+        <p  width = 300 display="block"> Auto Reflesh </p>
+     </button>
+
+
+     <button id="btn_stopReflesh" type="button" class="selButton" onclick="stopAutoReflesh();">
+          <p width = 300> Stop Reflesh </p>
+    </button>
+</div>
+
+<p id="watermark"> felbsn 2018 &copy; </p>
+
+
+</body>
+
+
+    <script src = "Main.js"></script>
+    <script src ="variables.js"></script>	
+    <script src ="data.js" id = "database"></script>	
+    <script src ="dataFunction.js"></script> 
+    <script src ="dataHandler.js"></script>	
+</html> 

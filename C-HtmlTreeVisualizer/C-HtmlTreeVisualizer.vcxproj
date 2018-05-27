@@ -115,6 +115,28 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="CVector.h" />
+    <ClInclude Include="CVectorImp.h" />
+    <ClInclude Include="NodeAlgorithm.h" />
+    <ClInclude Include="ShellHandler.h" />
+    <ClInclude Include="TreeVisualizer.h" />
+    <ClInclude Include="UserData.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="NodeAlgorithm.cpp" />
+    <ClCompile Include="ShellHandler.cpp" />
+    <ClCompile Include="TreeVisualizer.cpp" />
+    <ClCompile Include="UserData.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="HTML\data.js" />
+    <None Include="HTML\dataFunction.js" />
+    <None Include="HTML\dataHandler.js" />
+    <None Include="HTML\demo.html" />
+    <None Include="HTML\Main.js" />
+    <None Include="HTML\style.css" />
+    <None Include="HTML\variables.js" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
