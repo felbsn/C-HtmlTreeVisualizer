@@ -1,5 +1,5 @@
 # C-HtmlTreeVisualizer
-just simple tool that vicualize tree structures in c  with using html &amp; javascript
+just simple tool that visualize tree structures in c  with using html &amp; javascript
 
 
 ![Demo](https://i.imgur.com/opLTu2v.png)
